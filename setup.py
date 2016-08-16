@@ -1,24 +1,22 @@
 from setuptools import setup, find_packages
 setup(
-    name = "automation_api",
-    version = "0.1",
+    name = "automationapi",
+    version = "0.2",
     packages = find_packages(),
+    author = 'Rahul R',
+    author_email = 'rsmrahul@gmail.com',
+    description = 'Automation Library',
+    long_description='Api for automation',
+    url = 'https://github.com/rsmrahul1/automation-api', # The URL to the github repo
+    download_url = 'https://github.com/rsmrahul1/automation-api.git',
+    license='MIT',# Choose your license
     classifiers=[
-        # How mature is this project? Common values are
-        #   3 - Alpha
-        #   4 - Beta
-        #   5 - Production/Stable
         'Development Status :: 3 - Alpha',
-
-        # Indicate who your project is intended for
-        'Intended Audience :: test automation developers',
-        'Topic :: Test Automation :: Build Tools',
-
-        # Pick your license as you wish (should match "license" above)
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: MIT License',
 
-        # Specify the Python versions you support here. In particular, ensure
-        # that you indicate whether you support Python 2, Python 3 or both.
+        # Specify the Python versions you support here. 
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7'
