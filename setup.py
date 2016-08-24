@@ -22,6 +22,6 @@ setup(
         'Programming Language :: Python :: 2.7'
         ],
     install_requires=[
-        "somepackageexample==0.2.1"
+        "pytest==3.0.1"
         ],
     )
