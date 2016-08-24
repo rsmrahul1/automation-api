@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 setup(
     name = "automationapi",
-    version = "0.2",
+    version = "0.4",
     packages = find_packages(),
     author = 'Rahul R',
     author_email = 'rsmrahul@gmail.com',
